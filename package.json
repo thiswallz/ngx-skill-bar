@@ -1,0 +1,27 @@
+{
+  "name": "ngx-skill-bar",
+  "version": "1.0.1",
+  "description": "A clean way to show skill and progress bars for angular 6.",
+  "keywords": [
+    "angular 6",
+    "bar",
+    "progress bar",
+    "skill bar",
+    "progress",
+    "progress"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiswallz/ngx-skill-bar.git"
+  },
+  "author": "Mauricio Joost Wolff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiswallz/ngx-skill-bar/issues"
+  },
+  "homepage": "https://github.com/thiswallz/ngx-skill-bar#readme",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  }
+}

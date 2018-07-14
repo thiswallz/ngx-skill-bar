@@ -1,0 +1,14 @@
+.statistics-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.statistics-item {
+  margin-top: 1px;
+  padding: 2px;
+}
+
+.figures {
+  margin-top: -4px;
+  margin-left: 4px;
+}

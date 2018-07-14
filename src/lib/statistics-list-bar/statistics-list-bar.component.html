@@ -1,0 +1,12 @@
+<div class="statistics-container">
+    <statistics-bar 
+        class="statistics-item" 
+        *ngFor="let bar of bars"  
+        [width]="bar.width" 
+        [bgColor]="bgColor" 
+        [color]="color" 
+        [barWidth]="barWidth"
+        [ngStyle]="{'padding': padding+'px'}"
+        ></statistics-bar>
+    <div class="figures" *ngIf="showFigures">{{percentage}}%</div>
+</div>
