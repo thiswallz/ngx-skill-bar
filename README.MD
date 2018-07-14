@@ -40,7 +40,19 @@ export class AppModule {}
 
 ### Use it!
 
-Examples :
+![Alt text](https://raw.githubusercontent.com/thiswallz/ngx-skill-bar/master/example1.png?raw=true 'Example 1')
+
+```html
+  <input [(ngModel)]="myNumber"  type="number" />
+  <div>My ngx-skill-bar</div>
+  <ngx-skill-bar 
+  [percentage]="myNumber" 
+  bgColor="#cccccc" 
+  color="#666666"
+  showFigures="true">
+```
+
+More examples :
 
 ```html
     <div>Basic usage, different percentages</div>
