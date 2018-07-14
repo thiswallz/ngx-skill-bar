@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, OnInit, OnChanges, Input } from "@angular/core";
 import { Bar } from "../bar.model";
 
 const DEFAULT_PADDING: number = 2;
@@ -8,7 +8,7 @@ const DEFAULT_PADDING: number = 2;
   templateUrl: "./statistics-list-bar.component.html",
   styleUrls: ["./statistics-list-bar.component.css"]
 })
-export class StatisticsListBarComponent implements OnInit {
+export class StatisticsListBarComponent implements OnChanges, OnInit {
   @Input() bars: Bar[] = [];
   @Input() showFigures: boolean = false;
   @Input() percentage: number = 0;
@@ -27,4 +27,6 @@ export class StatisticsListBarComponent implements OnInit {
       this.padding = DEFAULT_PADDING;
     }
   }
+
+  ngOnChanges() {}
 }

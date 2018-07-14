@@ -1,6 +1,6 @@
 {
   "name": "ngx-skill-bar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A clean way to show skill and progress bars for angular 6.",
   "keywords": [
     "angular 6",

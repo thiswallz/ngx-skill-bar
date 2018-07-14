@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from "@angular/core";
+import { Component, OnInit, Input, OnChanges } from "@angular/core";
 import { Bar } from "./bar.model";
 
 @Component({
@@ -8,7 +8,7 @@ import { Bar } from "./bar.model";
   `,
   styles: []
 })
-export class NgxSkillBarComponent implements OnInit {
+export class NgxSkillBarComponent implements OnInit, OnChanges {
   @Input() percentage: number = 0;
   @Input() numberOfBars = 5;
   @Input() showFigures: boolean;
@@ -22,7 +22,15 @@ export class NgxSkillBarComponent implements OnInit {
 
   constructor() {}
 
+  ngOnChanges() {
+    this.init();
+  }
+
   ngOnInit() {
+    this.init();
+  }
+
+  init() {
     this.standarWidthBar = 100 / this.numberOfBars;
     this.bars = [...this.generateLine()];
   }
