@@ -11,7 +11,7 @@ You do not need any dependencies. It works with Angular x. (Was created using An
 
 #### Examples
 
-![Alt text](https://raw.githubusercontent.com/thiswallz/ngx-skill-bar/master/bars.gif?raw=true 'Example 1')
+![Alt text](https://raw.githubusercontent.com/thiswallz/ngx-skill-bar/master/bars.png?raw=true 'Example 1')
 
 
 ## Quick Start
